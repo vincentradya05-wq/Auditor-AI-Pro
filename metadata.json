@@ -1,0 +1,7 @@
+{
+  "name": "Auditor-AI Pro",
+  "description": "Intelligent Receivables Audit System compliant with PSAK 71 & COSO, featuring Voice AI analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
