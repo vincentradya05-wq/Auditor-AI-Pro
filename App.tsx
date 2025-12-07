@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { ViewState, AuditRecord } from './types';
-import Sidebar from './components/Sidebar';
-import Landing from './components/Landing';
-import Upload from './components/Upload';
-import Dashboard from './components/Dashboard';
-import Analysis from './components/Analysis';
-import Findings from './components/Findings';
-import Report from './components/Report';
+import Sidebar from './Sidebar';
+import Landing from './Landing';
+import Upload from './Upload';
+import Dashboard from './Dashboard';
+import Analysis from './Analysis';
+import Findings from './Findings';
+import Report from './Report';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>(ViewState.LANDING);
